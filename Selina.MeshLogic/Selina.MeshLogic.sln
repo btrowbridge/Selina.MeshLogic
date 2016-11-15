@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Selina.MeshLogic", "Selina.MeshLogic\Selina.MeshLogic.vcxproj", "{CD609700-878B-43BF-A004-8AE4CBECC9B8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Selina.Library", "Selina.Library\Selina.Library.vcxproj", "{20F6A3F0-314E-4B46-9811-150F4D6D812D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|VisualGDB = Release|VisualGDB
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD609700-878B-43BF-A004-8AE4CBECC9B8}.Debug|VisualGDB.ActiveCfg = Debug|Win32
+		{CD609700-878B-43BF-A004-8AE4CBECC9B8}.Debug|x64.ActiveCfg = Debug|Win32
+		{CD609700-878B-43BF-A004-8AE4CBECC9B8}.Debug|x86.ActiveCfg = Debug|Win32
+		{CD609700-878B-43BF-A004-8AE4CBECC9B8}.Debug|x86.Build.0 = Debug|Win32
+		{CD609700-878B-43BF-A004-8AE4CBECC9B8}.Release|VisualGDB.ActiveCfg = Release|Win32
+		{CD609700-878B-43BF-A004-8AE4CBECC9B8}.Release|x64.ActiveCfg = Release|Win32
+		{CD609700-878B-43BF-A004-8AE4CBECC9B8}.Release|x86.ActiveCfg = Release|Win32
+		{CD609700-878B-43BF-A004-8AE4CBECC9B8}.Release|x86.Build.0 = Release|Win32
+		{20F6A3F0-314E-4B46-9811-150F4D6D812D}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{20F6A3F0-314E-4B46-9811-150F4D6D812D}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{20F6A3F0-314E-4B46-9811-150F4D6D812D}.Debug|x64.ActiveCfg = Debug|VisualGDB
+		{20F6A3F0-314E-4B46-9811-150F4D6D812D}.Debug|x86.ActiveCfg = Debug|VisualGDB
+		{20F6A3F0-314E-4B46-9811-150F4D6D812D}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{20F6A3F0-314E-4B46-9811-150F4D6D812D}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{20F6A3F0-314E-4B46-9811-150F4D6D812D}.Release|x64.ActiveCfg = Release|VisualGDB
+		{20F6A3F0-314E-4B46-9811-150F4D6D812D}.Release|x86.ActiveCfg = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

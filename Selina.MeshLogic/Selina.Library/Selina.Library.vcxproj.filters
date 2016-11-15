@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{ab9fe63b-6acc-4276-a803-60019014a8e0}</UniqueIdentifier>
+      <Extensions>*.vgdbsettings</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{d0b89557-05ef-4250-a702-83e3152bfd05}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Abstracts">
+      <UniqueIdentifier>{a3f30a84-afb1-40a5-b03c-11b747ed0747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{0c013b4f-170d-4c66-83d3-0ee4eb870a23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{92f0ebb9-142a-41fc-8aed-b7fc0909eac1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HardwareModule.cpp">
+      <Filter>Abstracts</Filter>
+    </ClCompile>
+    <ClCompile Include="Selina.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.hpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Selina.Library-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="Selina.Library-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Selina.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="HardwareModule.h">
+      <Filter>Abstracts</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+</Project>
