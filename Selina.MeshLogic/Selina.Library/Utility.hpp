@@ -12,9 +12,16 @@ using namespace std;
 
 namespace Utility
 {
-	#define UNREFERENCED_PARAMETER(a) a=a;
 	
+#pragma region Preprocessor
+	#define UNREFERENCED_PARAMETER(a) a=a;
+#pragma endregion
+	
+#pragma region Constants
+	const static char * SYS_ifconfig = "ifconfig";
+#pragma endregion
 
+#pragma region Helper Functions
 	std::string __exec(const char* cmd) {
 		char buffer[128];
 		std::string result = "";
@@ -27,8 +34,8 @@ namespace Utility
 		return result;
 	}
 	
+
 	//variadic overload
-	
 	std::string exec(const char* first,...)
 	{
 		va_list list;
@@ -49,4 +56,5 @@ namespace Utility
 		
 		return __exec(cmds);
 	}
+#pragma endregion
 }

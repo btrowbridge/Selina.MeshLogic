@@ -18,6 +18,9 @@
     <Filter Include="Test">
       <UniqueIdentifier>{92f0ebb9-142a-41fc-8aed-b7fc0909eac1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{3b26ac53-3972-4bba-94bc-4b6c33e2e0ae}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HardwareModule.cpp">
@@ -29,6 +32,13 @@
     <ClCompile Include="Utility.hpp">
       <Filter>Utility</Filter>
     </ClCompile>
+    <ClCompile Include="MeshModule.cpp">
+      <Filter>Abstracts</Filter>
+    </ClCompile>
+    <ClCompile Include="Protomesh.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="netiface.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Selina.Library-Debug.vgdbsettings">
@@ -47,5 +57,12 @@
       <Filter>Abstracts</Filter>
     </ClInclude>
     <ClInclude Include="pch.h" />
+    <ClInclude Include="MeshModule.h">
+      <Filter>Abstracts</Filter>
+    </ClInclude>
+    <ClInclude Include="Protomesh.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="netiface.h" />
   </ItemGroup>
 </Project>

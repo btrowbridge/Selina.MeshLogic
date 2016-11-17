@@ -41,12 +41,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="HardwareModule.cpp" />
+    <ClCompile Include="MeshModule.cpp" />
+    <ClCompile Include="netiface.cpp" />
+    <ClCompile Include="Protomesh.cpp" />
     <ClCompile Include="Selina.cpp" />
     <ClCompile Include="Utility.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HardwareModule.h" />
+    <ClInclude Include="MeshModule.h" />
+    <ClInclude Include="netiface.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Protomesh.h" />
     <ClInclude Include="Selina.h" />
   </ItemGroup>
   <ItemGroup>

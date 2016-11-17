@@ -6,10 +6,16 @@ namespace Selina
 {
 	namespace Library
 	{
-		bool HardwareModule::IsUp()
+		HardwareModule::HardwareModule(std::string initFile, std::string interfaceName) 
+			: m_InitFile(initFile), m_InterfaceName(interfaceName)
 		{
-			std::string result = Utility::exec("ifconfig", m_InterfaceName.c_str());
-			return result.find(m_InterfaceName);
+			
+		}
+		
+		bool HardwareModule::IsUp() const
+		{
+			std::string result = Utility::exec(SYS_ifconfig, m_InterfaceName.c_str());
+			return (result.find(m_InterfaceName) != std::string::npos);
 		}
 	}
 }

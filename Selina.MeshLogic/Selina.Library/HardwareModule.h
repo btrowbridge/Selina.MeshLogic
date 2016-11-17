@@ -2,7 +2,7 @@
 
 #include <string>
 #include <boost/asio/ip/address.hpp>
-
+#include "netiface.h"
 namespace Selina
 {
 	namespace Library
@@ -12,23 +12,20 @@ namespace Selina
 		{
 		public:
 			HardwareModule(std::string initFile, std::string interfaceName);
-			~HardwareModule();
+			~HardwareModule() = default;
 		
 			void StartUp();
-			bool IsUp();
+			bool IsUp() const;
 			void TakeDown();
 			
-			void SetIpv4(boost::asio::ip::address_v4 ipv4);
-			void SetIpv6(boost::asio::ip::address_v6 ipv6);
-		
-			void SetIpAddress(boost::asio::ip::address address);
-			boost::asio::ip::address GetIpAddress();
+			
+			
+			
+			
 		
 		private:
 			std::string m_InitFile;
-			std::string m_InterfaceName;
-			boost::asio::ip::address_v4 m_IPAddress_v4;
-			boost::asio::ip::address_v6 m_IPAddress_v6;
+			netiface
 			
 		};
 
